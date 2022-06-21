@@ -15,6 +15,7 @@ In `git rebase -i` you have the usual commands:
 
 * x f <commit> = like "squash", but keep only this commit
 * x s <commit> = like "pick", but put each file into a separate commit
+* x mark <message> = insert an empty commit with given message
 
 ## Installation
 
