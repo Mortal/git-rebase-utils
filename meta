@@ -1,0 +1,3 @@
+#!/bin/sh
+set -euo pipefail
+git cherry-pick "$2" && git commit --amend -nC "$1" && git commit --amend -nF <(git log -1 --format=%B $2)
